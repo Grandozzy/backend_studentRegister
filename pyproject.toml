@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "backend-studentregister"
+version = "0.1.0"
+description = "backend for student registration form"
+authors = ["Yaw Asamoah"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django-express = "^0.4.0"
+djangorestframework = "^3.15.2"
+djangorestframework-simplejwt = "5.2.2"
+setuptools = "^73.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
